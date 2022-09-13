@@ -16,6 +16,7 @@ def index():
 def index1():
     return 'HBNB'
 
+
 @app.route('/c/<text>', strict_slashes=False)
 def index2(text):
     return 'C {}'.format(text.replace('_', ' '))
